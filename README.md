@@ -1,6 +1,6 @@
 # Temporal attack on gait recognition
 
-Implementation of our Pattern Recognition paper "Temporal Sparse Adversarial Attack on Sequence-based Gait Recognition".
+Implementation of our Pattern Recognition paper "Temporal Sparse Adversarial Attack on Sequence-based Gait Recognition". Core modules are provided and details to reproduce results in our paper remain to do.
 
 ### Table of Contents  
 1) [Train a wgan-gp for silhouette generation](#Train-a-wgan-gp-for-silhouette-generation) <a name="Train-a-wgan-gp-for-silhouette-generation"/>
