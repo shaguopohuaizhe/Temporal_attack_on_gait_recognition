@@ -1,6 +1,6 @@
 # Silhouette attack
 
-This repo is mainly based on attacking the sota model [GaitSet](https://github.com/AbnerHqC/GaitSet).
+This step is to attack the sota model [GaitSet](https://github.com/AbnerHqC/GaitSet).
 
 Preparation
 ```
