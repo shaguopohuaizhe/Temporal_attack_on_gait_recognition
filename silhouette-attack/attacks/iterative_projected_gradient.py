@@ -308,8 +308,8 @@ class MomentumIterativeAttack(Attack, LabelMixin):
             imggan = self.generator(spherenoise)
             real_pro = self.discriminator(imggan).view(-1)
             #print(real_pro)
-            real_label = torch.zeros_like(real_pro.detach())
-            loss = -nn.BCEWithLogitsLoss()(real_pro, real_label)
+            real_label = torch.ones_like(real_pro.detach())
+            loss = -10e^-5*nn.BCEWithLogitsLoss()(real_pro, real_label)
             #print(loss)
             
             imggan = imggan.view(n, 3, 64, 64)#.transpose(1,0)
