@@ -15,9 +15,3 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --train_dir /path/to/train --valida
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --train_dir /path/to/train --validation_dir /path/to/validation/ --output_path /path/to/output/ --dim 64 --saving_step 300 --num_workers 8 --restore_mode --start_iter 5000
 ```
-
-# TensorboardX
-Results such as costs, generated images (every 200 iters) for tensorboard will be written to `./runs` folder.
-
-To display the results to tensorboard, run: `tensorboard --logdir runs`
-
